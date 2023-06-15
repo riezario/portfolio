@@ -6,6 +6,7 @@
 /* <!-- add your custom CSS --> */
 body {
   font-family: sans-serif;
+  min-height: 2000px;
 }
 
 /* Add WA floating button CSS */
