@@ -1,13 +1,18 @@
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #64ecda;
 }
 
+section {
+  padding-top: 5rem;
+}
 /* <!-- add your custom CSS --> */
+/* 
+untuk kursor scroll
 body {
   font-family: sans-serif;
-  min-height: 2000px;
-}
+  min-height: 5000px;
+} */
 
 /* Add WA floating button CSS */
 .floating {
@@ -29,4 +34,9 @@ body {
   margin-top: 16px;
 }
 
+/* css id Certificate */
+#Certificate {
+  background-color: #64ecda;
+}
+/* end id Certificate */
 /* <!-- end css --> */
