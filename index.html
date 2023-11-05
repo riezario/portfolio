@@ -101,11 +101,11 @@
     <!-- Certificate -->
     <section id="Certificate">
       <div class="container">
-        <din class="row text-center mb-3">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>My Certificate</h2>
           </div>
-        </din>
+        </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
@@ -327,6 +327,10 @@
             // reset form
             form.reset();
             console.log("Success!", response);
+            // Sembunyikan otomatis alert dalam 5 detik
+            setTimeout(function () {
+              myAlert.classList.add("d-none");
+            }, 5000);
           })
           .catch((error) => console.error("Error!", error.message));
       });
